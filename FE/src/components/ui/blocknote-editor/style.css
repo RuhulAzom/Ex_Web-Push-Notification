@@ -1,0 +1,32 @@
+.viewOnly .bn-editor {
+  padding-inline: 0px;
+  background-color: transparent;
+}
+
+.viewOnly .bn-block-outer .ProseMirror-trailingBreak {
+  display: none;
+}
+
+.bn-editor {
+  padding-inline: 0;
+}
+
+.bn-mantine .bn-side-menu {
+  background-color: white;
+  box-shadow: 0 4px 12px #cfcfcf;
+  padding: 2px 4px;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.bn-container.text-white .bn-block-content {
+  color: white;
+}
+
+.bn-block-content[data-content-type='image'] {
+  width: 200px;
+}
+
+/* .bn-block-content[data-content-type='image'] .bn-resize-handle {
+  display: none;
+} */
